@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <!--Navigation section-->
+    <header>
+        <nav class="nav navbar mx-3">
+            <ul class="nav nav-pills py-2">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#wie" target="_self">What is Express?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#eg" target="_self">Express Generator</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#eap" target="_self">Express Application Project</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--What is Express-->
+    <div class="container container-fluid py-5 bg-light">
+        <section id="wie">
+            <h2>What is Express?</h2>
+            <p>Express is a JavaScript framework providing many features used to build web applications.</p>
+            <a href="https://expressjs.com/en/4x/api.html#app" target="_blank">Express Reference</a>
+        </section>
+    </div>
+
+    <!--Express Generator-->
+    <div id="eg" class="container container-fluid my-2 bg-light">
+        <h2>Express Application Generator</h2>
+        <p>Express Application Generator is a tool to quickly create a skeleton web app from scratch. It will contain a default HTML, CSS, JavaScript files created for you and it will automatically set up the routes in your project along with everything needed to get started, so you can keep building your Web Application from this foundantion. Below you may find the respective prompts.</p>
+        <a href="http://expressjs.com/en/starter/generator.html#express-application-generator" target="_blank">Express Application Generator Reference</a>
+    </div>
+
+    <!--Express application project-->
+    <div id="eap" class="container container-fluid my-2 bg-light">
+        <h2>Express Application Project</h2>
+        <section class="set up">
+            <h3>Set Up Your App's Environment</h3>
+            <p>First, Node.js must be installed in your device. Next, you shall install the Express framework by opening your code's editor terminal and type in <em>npm init</em>. This utility will walk you through creating a package.json file which will contain all your dependencies. Once completed you may install other dependencies using <em>npm install (package name)</em>. Upon completition, you may seek the package.json file in your web app folder and modify the <strong>"start"</strong> section. It controls what will occur once you've initialized your application typing the command <em>npm start</em>.</p>
+        </section>
+        <section class="route">
+            <h3>Routes</h3>
+            <p>Routing determines how an application responds to a client's request to a particular endpoint, which is a path and a specific HTTP request method like GET, POST, PUT or DELETE. The GET method sends a request to obtain data, the POST method sends a request to add data, the PUT method sends a request to replace data and the DELTE method sends a request to delete data.
+                Here you may find more useful information regarding routes and how to use them in your backend application. Reference: <a href="http://expressjs.com/en/starter/basic-routing.html" target="_blank">Basic Routing Express</a>. 
+
+            </p>
+        </section>
+    </div>
+    <!--Bootstrap JavaScript link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

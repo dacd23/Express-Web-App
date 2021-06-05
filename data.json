@@ -1,0 +1,43 @@
+[{
+    "id": "0",
+    "first_name": "John",
+    "last_name": "Smith",
+    "email": "clearian@nadas.gov",
+    "gender": "male"
+},
+{
+    "id": "1",
+    "first_name": "Tim",
+    "last_name": "Roberts",
+    "email": "Trobrts@nadas.gov",
+    "gender": "male"
+},
+{
+    "id": "2",
+    "first_name": "Pete",
+    "last_name": "Will",
+    "email": "Petewill@nadas.gov",
+    "gender": "male"
+},
+{
+    "id": "3",
+    "first_name": "Jessi",
+    "last_name": "Smock",
+    "email": "smockjess@nadas.gov",
+    "gender": "female"
+},
+{
+    "id": "4",
+    "first_name": "Jerry",
+    "last_name": "Thomp",
+    "email": "Jerrythopm@nadas.gov",
+    "gender": "male"
+},
+{
+    "id": "5",
+    "first_name": "Tom",
+    "last_name": "Sawyer",
+    "email": "sawyertom@nadas.gov",
+    "gender": "female"
+}
+]
